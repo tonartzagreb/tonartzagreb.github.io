@@ -1,2 +1,1 @@
-# tonartzagreb.github.io
-TonArt Zagreb website
+# TonArt Zagreb website

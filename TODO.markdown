@@ -1,3 +1,3 @@
-- [ ] header bg preko celog ekrana
+- [x] header bg preko celog ekrana
 - [ ] portfolio item default image
 - [ ] YT videji
