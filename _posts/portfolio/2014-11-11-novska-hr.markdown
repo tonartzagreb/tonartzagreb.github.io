@@ -1,0 +1,8 @@
+---
+lang: hr
+title: "Koncert P. Jakas i K. Cvitanić"
+subtitle: "Glazbena škola Novska, 11.11.2014."
+image: "/assets/images/2014-11-11-novska.jpg"
+---
+
+U Koncertnoj dvorani Glazbene škole Novska 11. studenog 2014. godine održan je koncert dua Petromile Jakas violina, članice simfonijskog orkestra Hrvatske radio televizije i Kristine Cvitanić klavir. Kristina Cvitanić je pred novljanskom publikom pored dua sa Petromilom izvela i vlastite skladbe na klaviru namjenjene dječjem uzrastu. Ravnateljica Glazbene škole Novska Ana Betević Dadić je izjavila da joj je izuzezna čast što je glazbena škola imala priliku ugostiti vrsne glazbenike te da se nada kako će se ta tradicija u budućnosti nastaviti.

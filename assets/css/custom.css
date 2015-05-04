@@ -1,0 +1,12 @@
+#contact p {
+    color: #fff;
+}
+
+header {
+    background-image: url(/assets/images/header-background.jpg);
+    background-position: center bottom;
+}
+
+section#contact {
+    background-image: url(/assets/images/contact-map-image.png);
+}

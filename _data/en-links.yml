@@ -1,0 +1,14 @@
+- url: "#services"
+  name: "Services"
+ 
+- url: "#portfolio"
+  name: "Portfolio"
+ 
+- url: "#about"
+  name: "About"
+ 
+- url: "#team"
+  name: "Team"
+ 
+- url: "#contact"
+  name: "Contact"

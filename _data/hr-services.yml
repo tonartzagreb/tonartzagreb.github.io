@@ -1,0 +1,11 @@
+- icon: "music"
+  name: "Koncerti"
+  description: "Izvođenje solističkih i komornih koncerata u Hrvatskoj i inozemstvu, a poglavito na području grada Zagreba i okolice."
+ 
+- icon: "book"
+  name: "Izdavaštvo"
+  description: "Snimanje te izdavanje nosača zvuka te izdavanje časopisa, priručnika i knjiga sa glazbenom tematikom."
+ 
+- icon: "graduation-cap"
+  name: "Poduka"
+  description: "Osim glazbene poduke, također radimo na jačanju suradnje sa srodnim organizacijama u Hrvatskoj i izvan nje."

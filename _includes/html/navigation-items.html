@@ -1,0 +1,10 @@
+{% case page.lang %}
+    {% when 'en' %}
+        {% for link in site.data.en-links %}
+            <li><a class="page-scroll" href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+    {% when 'hr' %}
+        {% for link in site.data.hr-links %}
+            <li><a class="page-scroll" href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+{% endcase %}

@@ -1,0 +1,11 @@
+- url: "#portfolio"
+  name: "Aktivnosti"
+ 
+- url: "#services"
+  name: "Djelatnosti"
+ 
+- url: "#team"
+  name: "Članovi"
+ 
+- url: "#contact"
+  name: "Kontakt"

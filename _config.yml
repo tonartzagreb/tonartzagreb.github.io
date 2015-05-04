@@ -1,0 +1,24 @@
+### Jekyll ###
+excerpt_separator: ""
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "TODO.markdown", "README.markdown"]
+
+
+### Defaults ###
+defaults:
+    - 
+      scope:
+        path: "portfolio"
+        type: "posts"
+      values:
+        category: "portfolio"
+    -
+      scope:
+        path: "team"
+        type: "posts"
+      values:
+        category: "team"
+
+
+### Website ###
+name: "TonArt Zagreb"
+url: "http://tonartzagreb.hr"

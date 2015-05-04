@@ -1,0 +1,24 @@
+{% case page.lang %}
+    {% when 'en' %}
+        {% for item in site.data.en-services %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-{{ item.icon }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ item.name }}</h4>
+                    <p class="text-muted">{{ item.description }}</p>
+                </div>
+        {% endfor %}
+    {% when 'hr' %}
+        {% for item in site.data.hr-services %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-{{ item.icon }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ item.name }}</h4>
+                    <p class="text-muted">{{ item.description }}</p>
+                </div>
+        {% endfor %}
+{% endcase %}
