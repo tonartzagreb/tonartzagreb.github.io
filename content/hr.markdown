@@ -21,5 +21,7 @@ team-subheading: "Biografije izvođača udruge."
 team-after-text: "Članom udruge može postati svaka fizička i pravna osoba."
 
 contact-heading: "Kontakt"
+
+footer-copy: "Fotografije izvođača ustupili Ljubica Kostović Ljube i Mario Kociper."
 ---
 
