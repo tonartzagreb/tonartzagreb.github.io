@@ -16,8 +16,8 @@ portfolio-heading: "Aktivnosti"
 portfolio-subheading: "Informacije o aktivnostima udruge."
 portfolio-close: "Zatvori"
 
-team-heading: "Članovi"
-team-subheading: "Biografije istaknutih članica udruge."
+team-heading: "Izvođači"
+team-subheading: "Biografije izvođača udruge."
 team-after-text: "Članom udruge može postati svaka fizička i pravna osoba."
 
 contact-heading: "Kontakt"
