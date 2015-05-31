@@ -1,0 +1,9 @@
+---
+lang: hr
+title: "Duo Momentum (P. Jakas i K. Cvitanić)"
+subtitle: "Koncert, grad Hvar, 15.8.2015."
+image: "/assets/images/2015-08-15-hvar.jpg"
+published: false
+---
+
+Pijanistica Kristina Cvitanić i violinistica Petromila Jakas održati će sljedeći nastup kao duo "Momentum" Franjevačkom samostanu u gradu Hvaru, 15. listopada 2015. u 21 sat.
