@@ -13,6 +13,9 @@ header {
     background-position: center bottom;
 }
 
+div.arhiva, div#collapseArhiva {
+    margin-top: 4em;
+}
 
 section#contact {
     background-image: url(/assets/images/contact-map-image.png);

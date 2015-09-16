@@ -1,6 +1,6 @@
 ### Jekyll ###
 excerpt_separator: ""
-exclude: ["CNAME", "Gemfile", "Gemfile.lock", "TODO.markdown", "README.markdown"]
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "TODO.markdown", "README.markdown", "LICENSE"]
 
 
 ### Defaults ###

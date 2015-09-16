@@ -1,4 +1,4 @@
 - [x] header bg preko celog ekrana
-- [ ] portfolio ajax paging
-- [ ] portfolio item default image
+- [x] portfolio ajax paging
+- [x] portfolio item default image
 - [ ] YT videji

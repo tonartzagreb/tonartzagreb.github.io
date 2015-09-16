@@ -7,8 +7,9 @@
                     <h3 class="section-subheading text-muted">{{ page.portfolio-subheading }}</h3>
                 </div>
             </div>
+            <!-- Prva tri -->
             <div class="row">
-                {% for post in site.categories.portfolio %}
+                {% for post in site.categories.portfolio limit:3 %}
                 {% if post.lang == page.lang %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.id | remove: "/" }}" class="portfolio-link" data-toggle="modal">
@@ -18,9 +19,9 @@
                             </div>
                         </div>
                         {% if post.image %}
-                        <img src="{{ post.image }}" class="img-responsive" alt="">
+                        <img src="{{ post.image }}" class="img-responsive" alt="{{ post.title }}">
                         {% else %}
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="/assets/images/portfolio-default.jpg" class="img-responsive" alt="{{ post.title }}">
                         {% endif %}
                     </a>
                     <div class="portfolio-caption">
@@ -30,6 +31,36 @@
                 </div>
                 {% endif %}
                 {% endfor %}
+            </div>
+            
+            <!-- Ostatak -->
+            <div class="text-center arhiva"><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseArhiva" aria-expanded="false" aria-controls="collapseArhiva">Arhiva</button></div>
+            
+            <div class="collapse" id="collapseArhiva">
+                <div class="row">
+                    {% for post in site.categories.portfolio offset:3 %}
+                    {% if post.lang == page.lang %}
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal{{ post.id | remove: "/" }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-search fa-3x"></i>
+                                </div>
+                            </div>
+                            {% if post.image %}
+                            <img src="{{ post.image }}" class="img-responsive" alt="{{ post.title }}">
+                            {% else %}
+                            <img src="/assets/images/portfolio-default.jpg" class="img-responsive" alt="{{ post.title }}">
+                            {% endif %}
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted">{{ post.subtitle }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </section>
